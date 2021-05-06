@@ -71,10 +71,6 @@ function Home() {
 
   console.log(msgResponse);
 
-  useEffect(() => {
-    document.title = `${user.first_name}'s Dashboard - Walletchip`;
-  }, []);
-
   return (
     <>
       <Navbar>
