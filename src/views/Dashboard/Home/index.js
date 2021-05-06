@@ -122,7 +122,13 @@ function Home() {
                           className="far fa-plus me-3"
                           style={{ color: "#E0E0E0" }}
                         ></i>
-                        Topup
+                        <Link
+                          to="/topup"
+                          className="text-decoration-none text-white"
+                        >
+                          {" "}
+                          Topup{" "}
+                        </Link>
                       </button>
                     </div>
                   </div>
